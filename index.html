@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ronnian G. Delos Santos | IT Student Portfolio</title>
+  <meta name="description" content="Portfolio of Ronnian G. Delos Santos, a BS Information Technology student at HGBaquiran College in Tumauini, Isabela.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="asset/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/chat.css">
+  <script>
+    /* Set the theme before first paint to avoid a flash */
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = saved || (dark ? "dark" : "light");
+      } catch (e) { document.documentElement.dataset.theme = "light"; }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Ronnian Delos Santos, back to top">
+      <img src="asset/logo.svg" alt="" width="38" height="38">
+      <span class="brand-name">Ronnian Delos Santos</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor"/></svg>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <p class="status"><span class="dot" aria-hidden="true"></span>Open to internships</p>
+        <h1 class="name" id="heroName" aria-label="Ronnian G. Delos Santos">
+          <span class="name-line">Ronnian G.</span>
+          <span class="name-line">Delos Santos</span>
+        </h1>
+        <p class="hero-copy">
+          I am an Information Technology student from Tumauini, Isabela. I have basic knowledge of
+          computer hardware and software troubleshooting. I can work well with others, and I am also
+          willing to learn more about AI and cybersecurity to improve my skills in the IT field.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:delossantosronnian@gmail.com">Email me</a>
+          <a class="btn" href="#certificates">See my certificates</a>
+        </div>
+      </div>
+      <figure class="portrait" id="portrait">
+        <div class="portrait-frame">
+          <img id="portraitImg" src="asset/photo.jpeg" alt="Portrait of Ronnian G. Delos Santos" width="320" height="400" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='asset/photo.jpg'}">
+        </div>
+      </figure>
+    </section>
+
+    <section class="section" id="about">
+      <h2>About</h2>
+      <div class="content">
+        <p class="lead">
+          I’ve built strong organizational and communication skills in collaborative, fast-paced
+          environments. I manage multiple tasks, meet deadlines, and contribute to team goals.
+        </p>
+        <p>
+          I’m looking to move into new roles where I can put these transferable skills to work
+          in a variety of professional settings.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <div class="content">
+        <ol class="timeline">
+          <li class="current">
+            <span class="when">Present</span>
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>HGBaquiran College</p>
+          </li>
+          <li>
+            <span class="when">2023</span>
+            <h3>Secondary education</h3>
+            <p>Antagan National High School</p>
+          </li>
+          <li>
+            <span class="when">2017</span>
+            <h3>Primary education</h3>
+            <p>Antagan 1st Elementary School</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="content">
+        <ul class="skills">
+          <li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg><span>Good communication</span></li>
+          <li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Time management</span></li>
+          <li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><span>Computer literate</span></li>
+          <li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.2 5.2L3.5 17.5l3 3 6-6a4 4 0 0 0 5.2-5.2l-2.6 2.6-2.4-.6-.6-2.4z"/></svg><span>Hardware and software troubleshooting</span></li>
+          <li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.5a5 5 0 0 1 4.5 5"/></svg><span>Teamwork and collaboration</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-wide" id="achievements">
+      <h2>Achievements</h2>
+      <div class="content">
+        <div class="marquee-bar"><button type="button" class="pause" aria-pressed="false">Pause motion</button></div>
+        <div class="marquee" data-speed="45" data-dir="left">
+        <ul class="track awards">
+          <li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5 7 21l5-2.5 5 2.5-1.5-7.5"/></svg><div><span class="award-title">Graduated with honors</span><span class="award-year">2023</span></div></li>
+          <li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5 7 21l5-2.5 5 2.5-1.5-7.5"/></svg><div><span class="award-title">Best in OJT</span><span class="award-year">2023</span></div></li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wide" id="certificates">
+      <h2>Certificates and events</h2>
+      <div class="content">
+        <div class="marquee-bar"><button type="button" class="pause" aria-pressed="false">Pause motion</button></div>
+        <div class="marquee" data-speed="40" data-dir="right">
+        <ul class="track certs" id="certList">
+          <li data-cat="course">
+            <div class="cert-main">
+              <h3>Introduction to AI Literacy and Responsible Use</h3>
+            </div>
+            <p class="cert-meta">September 15, 2026</p>
+          </li>
+          <li data-cat="committee">
+            <div class="cert-main">
+              <h3>Regional ITE Convention 2026, Organizing Committee</h3>
+              <p>St. Paul University Philippines, School of Information Technology and Engineering</p>
+            </div>
+            <p class="cert-meta">July 20–22, 2026<br>Tuguegarao City</p>
+          </li>
+          <li data-cat="itday">
+            <div class="cert-main">
+              <h3>Applied AI: Prompt Engineering for the Modern IT Professional</h3>
+              <p>IT Day 2026, HGBaquiran College</p>
+            </div>
+            <p class="cert-meta">April 10–11, 2026<br>Tumauini, Isabela</p>
+          </li>
+          <li data-cat="itday">
+            <div class="cert-main">
+              <h3>Cybersecurity Awareness</h3>
+              <p>IT Day 2026, HGBaquiran College</p>
+            </div>
+            <p class="cert-meta">April 10–11, 2026<br>Tumauini, Isabela</p>
+          </li>
+          <li data-cat="itday">
+            <div class="cert-main">
+              <h3>Digital Transformation, the Revolution of Artificial Intelligence, and the Role of IT Professionals in Emerging Technologies</h3>
+              <p>IT Day 2026, HGBaquiran College</p>
+            </div>
+            <p class="cert-meta">April 10–11, 2026<br>Tumauini, Isabela</p>
+          </li>
+          <li data-cat="itday">
+            <div class="cert-main">
+              <h3>System Development</h3>
+              <p>IT Day 2026, HGBaquiran College</p>
+            </div>
+            <p class="cert-meta">April 10–11, 2026<br>Tumauini, Isabela</p>
+          </li>
+          <li data-cat="committee">
+            <div class="cert-main">
+              <h3>Regional ITE Convention 2025, Organizing Committee</h3>
+              <p>St. Paul University Philippines, School of Information Technology and Engineering</p>
+            </div>
+            <p class="cert-meta">March 26–28, 2025<br>Tuguegarao City</p>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="content">
+        <p class="lead">Open to internships and entry-level opportunities. The quickest way to reach me is email.</p>
+        <dl class="contact-list">
+          <div>
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:delossantosronnian@gmail.com">delossantosronnian@gmail.com</a>
+              <button type="button" class="copy" id="copyEmail" data-email="delossantosronnian@gmail.com">Copy email</button>
+              <span class="copy-status" id="copyStatus" role="status" aria-live="polite"></span>
+            </dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd><a href="tel:+639267330954">+63 926-733-0954</a></dd>
+          </div>
+          <div>
+            <dt>Address</dt>
+            <dd>Antagan 2nd, Tumauini, Isabela 3325, Philippines</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Ronnian G. Delos Santos</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <button class="chat-fab" id="chatFab" type="button" aria-expanded="false" aria-controls="chatPanel">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+    Ask about Ronnian
+  </button>
+  <section class="chat" id="chatPanel" hidden aria-label="Ask about Ronnian">
+    <div class="chat-head">
+      <img src="asset/logo.svg" alt="" width="32" height="32">
+      <div>
+        <h2>Ask about Ronnian</h2>
+        <p>Quick answers from his resume.</p>
+      </div>
+      <button class="chat-close" id="chatClose" type="button" aria-label="Close chat">×</button>
+    </div>
+    <div class="chat-log" id="chatLog" role="log" aria-live="polite"></div>
+    <div class="chat-tips" id="chatTips">
+      <button type="button">What certificates does he have?</button>
+      <button type="button">What are his skills?</button>
+      <button type="button">Where does he study?</button>
+      <button type="button">Is he open to internships?</button>
+      <button type="button">How can I contact him?</button>
+    </div>
+    <form class="chat-form" id="chatForm">
+      <input id="chatInput" type="text" maxlength="500" placeholder="Type your question" aria-label="Your question" autocomplete="off">
+      <button type="submit" id="chatSend">Send</button>
+    </form>
+  </section>
+
+  <script src="script/script.js"></script>
+  <script src="script/chat.js"></script>
+</body>
+</html>
